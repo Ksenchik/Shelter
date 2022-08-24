@@ -2,4 +2,4 @@
 
 ---
 
-https://ksenchik.github.io/Shelter/index
+https://ksenchik.github.io/Shelter/shelter/pages/main/

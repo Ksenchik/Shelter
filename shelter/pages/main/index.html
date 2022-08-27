@@ -13,35 +13,37 @@
 
 
    <div class="block-1">
-      <div class="container-1">
+      <div class="container">       
 
-         <header>
-            <nav>
-               <div class="logo">
-                  <h1 class="logo1">Cozy House</h1>
-                  <p class="logo2">Shelter for pets in Boston</p>
+         <header class="header">
+            
+               <div class="header__body">
+                  <div class="logo">
+                     <h1 class="logo1">Cozy House</h1>
+                     <p class="logo2">Shelter for pets in Boston</p>
+                  </div>
+                  <div class="header__burger">
+                     <span></span>
+                  </div>
+                  <nav class="header__menu">
+                     <ul class="header__list">
+                        <li>
+                           <a href="#" class="header__link main__link">About the shelter</a>
+                        </li>
+                        <li>
+                           <a href="#" class="header__link">Our pets</a>
+                        </li>
+                        <li>
+                           <a href="#" class="header__link">Help the shelter</a>
+                        </li>
+                        <li>
+                           <a href="#" class="header__link">Contacts</a>
+                        </li>
+                        
+                     </ul>
+                  </nav>
                </div>
-
-               <ul class="nav-links">
-                  <li class="li"><a href="#" class="link-decoration"
-                        style="color: #fafafa; border-bottom: 2px solid #fafafa">About the
-                        shelter</a>
-                  </li>
-                  <li class="li"><a href="../../pages/pets/index.html" class="link-decoration"
-                        style="color: #CDCDCD; ">Our pets</a></li>
-                  <li class="li"><a href="#help" class="link-decoration" style="color: #CDCDCD;">Help the shelter</a>
-                  </li>
-                  <li class="li"><a href="#footer" class="link-decoration" style="color: #CDCDCD;">Contacts</a></li>
-               </ul>
-               <div class="burger">
-                  <div class="line line1"></div>
-                  <div class="line line2"></div>
-                  <div class="line line3"></div>
-               </div>
-
-            </nav>
-
-
+            
          </header>
 
 
@@ -55,7 +57,7 @@
 
                <a href="#frends"><button class="button-block1">Make a friend</button></a>
             </div>
-            <div>
+            <div class="section-1b__img">
                <img class="section-1b" src="../../assets/images/start-screen-puppy.png" alt="puppy">
             </div>
          </section>
@@ -63,7 +65,7 @@
    </div>
 
    <div class="block-2">
-      <div class="container-2">
+      <div class="container">
          <div class="section-2">
             <img class="block2-img" src="../../assets/images/about-pets.png" alt="pets">
             <div class="block-2-txt">
@@ -87,7 +89,7 @@
    </div>
 
    <div class="block-3" id="frends">
-      <div class="container-3">
+      <div class="container">
          <p class="block3-text">Our friends who <br>
             are looking for a house</p>
 
@@ -95,80 +97,107 @@
          <div id="carousel" class="block3-frends carousel">
 
 
-            <button class="arrow prev">
+            <button class="max-w arrow prev">
                <img src="../../assets/icons/Arrow(left).svg" alt="">
             </button>
 
             <div class="gallery">
 
-               <div class="carousel-container">
+               <div class="slider">
 
-                  <div class="card-pet carousel-item">
-                     <img src="../../assets/images/pets-katrine.png" alt="lean more">
-                     <div class="animal">
-                        <p>Katrine</p>
-                        <button>Learn more</button>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img src="../../assets/images/pets-katrine.png" alt="lean more">
+                        <div class="animal">
+                           <p>Katrine</p>
+                           <button>Learn more</button>
+                        </div>
                      </div>
                   </div>
-                  <div class="card-pet carousel-item">
-                     <img src="../../assets/images/pets-jennifer.png" alt="lean more">
-                     <div class="animal">
-                        <p>Jennifer</p>
-                        <button>Learn more</button>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img src="../../assets/images/pets-jennifer.png" alt="lean more">
+                        <div class="animal">
+                           <p>Jennifer</p>
+                           <button>Learn more</button>
+                        </div>
                      </div>
                   </div>
-                  <div class="card-pet carousel-item">
-                     <img src="../../assets/images/pets-woody.png" alt="lean more">
-                     <div class="animal">
-                        <p>Woody</p>
-                        <button>Learn more</button>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img src="../../assets/images/pets-woody.png" alt="lean more">
+                        <div class="animal">
+                           <p>Woody</p>
+                           <button>Learn more</button>
+                        </div>
                      </div>
                   </div>
-                  <div class="card-pet carousel-item">
-                     <img src="../../assets/images/pets-sophia.png" alt="lean more">
-                     <div class="animal">
-                        <p>Sophia</p>
-                        <button>Learn more</button>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img src="../../assets/images/pets-sophia.png" alt="lean more">
+                        <div class="animal">
+                           <p>Sophia</p>
+                           <button>Learn more</button>
+                        </div>
                      </div>
                   </div>
-                  <div class="card-pet carousel-item">
-                     <img src="../../assets/images/pets-timmy.png" alt="lean more">
-                     <div class="animal">
-                        <p>Timmy</p>
-                        <button>Learn more</button>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img src="../../assets/images/pets-timmy.png" alt="lean more">
+                        <div class="animal">
+                           <p>Timmy</p>
+                           <button>Learn more</button>
+                        </div>
                      </div>
                   </div>
-                  <div class="card-pet carousel-item">
-                     <img src="../../assets/images/pets-charly.png" alt="lean more">
-                     <div class="animal">
-                        <p>Charly</p>
-                        <button>Learn more</button>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img src="../../assets/images/pets-charly.png" alt="lean more">
+                        <div class="animal">
+                           <p>Charly</p>
+                           <button>Learn more</button>
+                        </div>
                      </div>
                   </div>
-                  <div class="card-pet carousel-item">
-                     <img src="../../assets/images/pets-scarlet.png" alt="lean more">
-                     <div class="animal">
-                        <p>Scarlett</p>
-                        <button>Learn more</button>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img src="../../assets/images/pets-scarlet.png" alt="lean more">
+                        <div class="animal">
+                           <p>Scarlett</p>
+                           <button>Learn more</button>
+                        </div>
                      </div>
                   </div>
-                  <div class="card-pet carousel-item">
-                     <img src="../../assets/images/pets-fredie.png" alt="lean more">
-                     <div class="animal">
-                        <p>Freddie</p>
-                        <button>Learn more</button>
+                  <div>
+                     <div class="card-pet slider-item">
+                        <div class="card-pet">
+                           <img src="../../assets/images/pets-fredie.png" alt="lean more">
+                           <div class="animal">
+                              <p>Freddie</p>
+                              <button>Learn more</button>
+                           </div>
+                        </div>
                      </div>
                   </div>
 
                </div>
 
             </div>
-
-            <button class="block3-button arrow next">
+            <button class="max-w arrow next">
                <img src="../../assets/icons/Arrow (right).svg" alt="">
             </button>
 
+         </div>
 
+         <div class="min-w">
+            <div class="min-w__position">
+               <button class="arrow prev">
+                  <img src="../../assets/icons/Arrow(left).svg" alt="">
+               </button>
+               <button class="arrow next">
+                  <img src="../../assets/icons/Arrow (right).svg" alt="">
+               </button>
+            </div>
          </div>
 
          <button class="button-get">Get to know the rest</button>
@@ -177,7 +206,7 @@
       </div>
    </div>
    <div class="block-4">
-      <div class="container-4" id="help">
+      <div class="container" id="help">
          <p class="block4-text">How you can help <br>
             our shelter</p>
 
@@ -226,7 +255,7 @@
    </div>
 
    <div class="block-5">
-      <div class="container-5">
+      <div class="container">
          <div class="block5-content">
             <img class="block5-img" src="../../assets/images/5donation-dog.png" alt="dog">
             <div class="block5-txt">
@@ -249,7 +278,7 @@
    </div>
 
    <div class="block-6" id="footer">
-      <div class="container-6">
+      <div class="container">
          <div class="block6-content">
             <div class="block6-content1">
                <p class="bl6-text-big"> For questions and suggestions</p>
@@ -285,7 +314,8 @@
    </div>
 
 
-
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="../../assets/js/slick.min.js"></script>
    <script src="script.js"></script>
 </body>
 

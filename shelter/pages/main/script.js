@@ -19,11 +19,9 @@ menuButton1.onclick = function () {
 // carousel
 $(document).ready(function(){
    $('.slider').slick({
-      // mobileFirst: true,
       arrows: false,
       slidesToShow: 3,
       speed: 100,
-      // variableWidth: true,
       responsive: [
          {
            breakpoint: 1000,
@@ -38,5 +36,12 @@ $(document).ready(function(){
            }
          }
       ]
+   });
+
+   $('.prev').click(function(event){
+      $('.slider').slick('slickPrev')
+   });
+   $('.next').click(function(event){
+      $('.slider').slick('slickNext')
    });
 });

@@ -83,6 +83,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
    flex-direction: column;
    justify-content: space-between;
    height: 60px;
+   z-index: 3;
 }
 .logo1{
     font-family: 'Georgia';
@@ -451,7 +452,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     max-width: 1035px;
     display: flex;
     flex-wrap: wrap;
-    gap: 0px 60px;
+    gap: 0px 120px;
     align-content: center;
     justify-content: center;  
     margin-left: auto;
@@ -505,7 +506,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .block5-txt2{
     margin-top: 20px;
-    width: 320px;
+    max-width: 320px;
     height: 17px;
     font-family: 'Georgia';
     font-style: normal;
@@ -626,7 +627,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     .text-2{
         max-width: 460px;
         height: 72px;
-        text-align: start;
+        text-align:center;
     }
     .section-1b{
         width: 80%;
@@ -642,7 +643,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     .section-1a{
         text-align: center;
         margin: 0 auto 100px auto;
-        width: 460px;
+        max-width: 460px;
     }
     .section-2{
       flex-direction: column-reverse;
@@ -685,11 +686,37 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
    }
 }
 
-@media (max-width: 880px){
-   
+@media (max-width: 770px){
+   .slider{
+      padding: 0px 20px;
+   }
+   .slider-item{
+      margin: 0 1vw;
+   }
+   .block4-text{
+      margin-top: 97px;
+   }
+   .block5-img{
+      height: 261px;
+   }
+   .block4-icon1{
+      gap: 0px 60px;
+   }
+   .block6-content{
+      gap: 0;
+   }
+   .block6-content1{
+      margin-top: 30px;
+   }
+   .block6-content2{
+      margin-top: 30px;
+   }
+   .block6-content3{
+      margin-top: 65px;
+   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
    body.lock{
       overflow: hidden;
    }
@@ -755,7 +782,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
       width: 100%;
       height: 100%;
       overflow: auto;
-      background-color: aquamarine; /* фон выпадающего меню */
+      background-color: #292929;; /* фон выпадающего меню */
       padding: 30px 10px 20px 10px;
       transition: all 0.3s ease 0s;
    }
@@ -763,36 +790,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
       top: 0;
    }
    .header__list{
-      display: block;
-      padding: 40px;
+      /* display: block; */
+      padding: 220px 10px 0 10px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+   }
+   .header__link{
+      font-size: 32px;
    }
    .header__list li{
-      margin: 0 0 20px 0;
+      margin: 0 0 5px 0;
    }
-   .slider{
-      padding: 0px 20px;
-   }
-   .slider-item{
-      margin: 0 1vw;
-   }
-   .block4-text{
-      margin-top: 97px;
-   }
-   .block5-img{
-      height: 261px;
-   }
-   .block6-content{
-      gap: 0;
-   }
-   .block6-content1{
-      margin-top: 30px;
-   }
-   .block6-content2{
-      margin-top: 30px;
-   }
-   .block6-content3{
-      margin-top: 65px;
-   }
+   
 }
 
 
@@ -803,21 +813,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
    }
    .header__body{
       padding-top: 57px;
-   }
-   .section-1a{
-      text-align: start;
-   }
+   }  
    .text-1{
       font-size: 25px;
       line-height: 130%;
       text-align: center;
       margin-bottom: 0;
       height: 100px;
+      max-width: 229px;
+      margin-right: auto;
+      margin-left: auto;
    }
    .text-2{
       max-width: 300px;
       height: 100px;
-      text-align: start;
+      /* text-align: start; */
   }
    .section-1b{
       width: 88%;
@@ -930,15 +940,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
    .block6-content1{
       margin-top: 0;
    }
-   .block6-content3{
-
-   }
-   .block6-content img{
-      /* height: 88%; */
-   }
-   
-   
-   
+       
    .max-w{
       display: none;
    }
@@ -950,9 +952,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
       display: flex;
       gap: 80px;
       justify-content: center;
-  }
-   
-   
+  }  
+}
+
+@media (max-width: 330px){
+   .header__body{
+      max-width: 256px;
+   }
 }
 
 

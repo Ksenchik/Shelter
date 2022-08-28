@@ -5,107 +5,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shelter</title>
+    <link rel="icon" href="../../assets/icons/favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container-1">
+    <div class="container">
 
-        <header>
-            <nav>
-               <div class="logo">
-                   <a href="../../pages/main/index.html">
-                       <h1 class="logo1">Cozy House</h1>
-                   </a>
-                   <p class="logo2">Shelter for pets in Boston</p>
-               </div>
-
-               <ul class="nav-links">
-                   <li class="li"><a href="../../pages/main/index.html" class="link-decoration">About the shelter</a></li>
-                   <li class="li"><a href="../../pages/pets/index.html" class="link-decoration"
-                          style=" border-bottom: 2px solid #F1CDB3;">Our pets</a></li>
-                   <li class="li"><a href="../../pages/main/index.html#help" class="link-decoration">Help the shelter</a></li>
-                   <li class="li"><a href="#footer" class="link-decoration">Contacts</a></li>
+      <header class="header">
+            
+         <div class="header__body">
+            <div class="logo">
+               <a href="../../pages/main/index.html"><h1 class="logo1">Cozy House</h1></a>
+               <a href="../../pages/main/index.html"><p class="logo2">Shelter for pets in Boston</p></a>
+            </div>
+            <div class="header__burger">
+               <span></span>
+            </div>
+            <nav class="header__menu">
+               <ul class="header__list">
+                  <li>
+                     <a href="../../pages/main/index.html" class="header__link">About the shelter</a>
+                  </li>
+                  <li>
+                     <a href="../../pages/pets/index.html" class="header__link link__pets">Our pets</a>
+                  </li>
+                  <li>
+                     <a href="../../pages/main/index.html#help" class="header__link">Help the shelter</a>
+                  </li>
+                  <li>
+                     <a href="#footer" class="header__link">Contacts</a>
+                  </li>
+                  
                </ul>
-               <div class="burger">
-                  <div class="line line1"></div>
-                  <div class="line line2"></div>
-                  <div class="line line3"></div>
-               </div>
             </nav>
-        </header>
+         </div>
+      
+   </header>
     </div>
 
     <div class="block-7">
-        <div class="container-7">
+        <div class="container">
             <p class="block7-txt">Our friends who <br> are looking for a house</p>
             <div class="block7-frends1">
-                <div class="card-pet">
-                    <img class="bl-3-boot" src="../../assets/images/pets-katrine.png" alt="lean more">
-                    <div class="animal">
-                        <p>Katrine</p>
-                        <button>Learn more</button>
-                    </div>
-                </div>
-                <div class="card-pet">
-                    <img class="bl-3-boot" src="../../assets/images/pets-jennifer.png" alt="lean more">
-                    <div class="animal">
-                        <p>Jennifer</p>
-                        <button>Learn more</button>
-                    </div>
-                </div>
-                <div class="card-pet">
-                    <img class="bl-3-boot" src="../../assets/images/pets-woody.png" alt="lean more">
-                    <div class="animal">
-                        <p>Woody</p>
-                        <button>Learn more</button>
-                    </div>
-                </div>
-                <div class="card-pet">
-                    <img class="bl-3-boot" src="../../assets/images/pets-sophia.png" alt="lean more">
-                    <div class="animal">
-                        <p>Sophia</p>
-                        <button>Learn more</button>
-                    </div>
-                </div><div class="card-pet">
-                    <img class="bl-3-boot" src="../../assets/images/pets-timmy.png" alt="lean more">
-                    <div class="animal">
-                        <p>Timmy</p>
-                        <button>Learn more</button>
-                    </div>
-                </div><div class="card-pet">
-                    <img class="bl-3-boot" src="../../assets/images/pets-charly.png" alt="lean more">
-                    <div class="animal">
-                        <p>Charly</p>
-                        <button>Learn more</button>
-                    </div>
-                </div><div class="card-pet">
-                    <img class="bl-3-boot" src="../../assets/images/pets-scarlet.png" alt="lean more">
-                    <div class="animal">
-                        <p>Scarlett</p>
-                        <button>Learn more</button>
-                    </div>
-                </div><div class="card-pet">
-                    <img class="bl-3-boot" src="../../assets/images/pets-fredie.png" alt="lean more">
-                    <div class="animal">
-                        <p>Freddie</p>
-                        <button>Learn more</button>
-                    </div>
-                </div>             
+               <div class="slider">
+
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img data-lazy="../../assets/images/pets-katrine.png" alt="lean more">
+                        <div class="animal">
+                           <p>Katrine</p>
+                           <button>Learn more</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img data-lazy="../../assets/images/pets-jennifer.png" alt="lean more">
+                        <div class="animal">
+                           <p>Jennifer</p>
+                           <button>Learn more</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img data-lazy="../../assets/images/pets-woody.png" alt="lean more">
+                        <div class="animal">
+                           <p>Woody</p>
+                           <button>Learn more</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img data-lazy="../../assets/images/pets-sophia.png" alt="lean more">
+                        <div class="animal">
+                           <p>Sophia</p>
+                           <button>Learn more</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img data-lazy="../../assets/images/pets-timmy.png" alt="lean more">
+                        <div class="animal">
+                           <p>Timmy</p>
+                           <button>Learn more</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img data-lazy="../../assets/images/pets-charly.png" alt="lean more">
+                        <div class="animal">
+                           <p>Charly</p>
+                           <button>Learn more</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slider-item">
+                     <div class="card-pet">
+                        <img data-lazy="../../assets/images/pets-scarlet.png" alt="lean more">
+                        <div class="animal">
+                           <p>Scarlett</p>
+                           <button>Learn more</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="slider-item">
+                        <div class="card-pet">
+                           <img data-lazy="../../assets/images/pets-fredie.png" alt="lean more">
+                           <div class="animal">
+                              <p>Freddie</p>
+                              <button>Learn more</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>            
             </div>
             
             <div class="block7-buton">
                 <button class="button-smoll">
-                    <img src="../../assets/icons/__.svg" alt="">
+                    <img src="../../assets/icons/__ (1).svg" alt="">
                 </button>
-                <button class="button-smoll">
-                    <img src="../../assets/icons/_.svg" alt="">
+                <button class="button-smoll prev">
+                    <img src="../../assets/icons/_ (1).svg" alt="">
                 </button>
                 <button class="button-smoll-number">
                     <p>1</p>
                 </button>
-                <button class="button-smoll-activ">
+                <button class="button-smoll-activ next">
                     <img src="../../assets/icons/_ (1).svg" alt="">
                 </button>
                 <button class="button-smoll-activ">
@@ -117,8 +151,8 @@
 
     </div>
 
-    <div class="block-6" id="footer">
-        <div class="container-6">
+    <footer class="block-6" id="footer">
+        <div class="container">
             <div class="block6-content">
                 <div class="block6-content1">
                     <p class="bl6-text-big"> For questions and suggestions</p>
@@ -135,12 +169,12 @@
                     <p class="bl6-text-big">We are waiting for your visit</p>
                     <div class="bl6-icon">
                         <img src="../../assets/icons/icon-marker.png" alt="">
-                        <a href="https://goo.gl/maps/FT7vVtzFoKrzdnmH7" class="bl6-text-smoll">1 Central Street, Boston
+                        <a target="_ blank" href="https://goo.gl/maps/FT7vVtzFoKrzdnmH7" class="bl6-text-smoll">1 Central Street, Boston
                             (entrance from the store)</a>
                     </div>
                     <div class="bl6-icon">
                         <img src="../../assets/icons/icon-marker.png" alt="">
-                        <a href="https://goo.gl/maps/faLbbpLskuYfagEq6" class="bl6-text-smoll">18 South Park, London
+                        <a target="_ blank" href="https://goo.gl/maps/faLbbpLskuYfagEq6" class="bl6-text-smoll">18 South Park, London
                         </a>
                     </div>
 
@@ -151,8 +185,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../../assets/js/slick.min.js"></script>
     <script src="script.js"></script>
 </body>
 
